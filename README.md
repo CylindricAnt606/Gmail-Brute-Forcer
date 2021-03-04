@@ -1,18 +1,41 @@
 # Usage:
-### Python3+
+### Python3+ Linux
 
 ```
+sudo apt install git
+
 git clone https://github.com/adrijano/Gmail-Hack.git
 
-cd Bitcoin-wallet-cracker && pip install -r requirements.txt
+sudo apt update
 
-python gmail_hack.py
+sudo apt upgrade
+
+sudo apt install python3-pip
+
+sudo apt install python
+
+sudo apt install python3
+
+cd Gmail-Hack && pip install -r requirements.txt IF DOESN'T WORK PLEASE FOLLOW THE NEXT STEP IF NOT THEN SKIP IT
+
+(ONLY IF THE ABOVE DOESN'T WORK)
+cd Gmail-Hack
+
+pip (or pip3) install pysimplegui
+
+pip (or pip3) install pyperclip
+
+pip (or pip3) install secure-smtplib
+----------------------------------------
+Skip here if the first one complated successfully 
+
+python3 gmail_hack.py
 
 ```
 ### Windows
 ```
-cd dist
-start gmail_hack.exe
+Go to releases and download the Gmail-Hack.exe !MAKE SURE YOU HAVE A .TXT FILE WITH THE PASSWORDS INCLUDED FOR THE BRUTE FORCER TO WORK EXAMPLE ONES ARE ALSO FOUND ON THE RELEASES BUT YOU CAN JUST MAKE YOU OWN.
+
 ```
 
 # Disclaimer
